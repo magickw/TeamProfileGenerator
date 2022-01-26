@@ -63,6 +63,7 @@ const generateTeam = team => {
     //filter() method creates a new array with all elements that pass the test implemented by the provided function.
     html.push(team
         .filter(employee => employee.getRole() === "Manager")
+        //.map() will run a block of code on each element of a specific array and return an array with modified values. See 10 OOP, 13-Ins_Pass-tests, fizz.js
         .map(manager => generateManager(manager))
     );
     html.push(team
