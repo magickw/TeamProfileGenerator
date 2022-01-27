@@ -282,6 +282,7 @@ function createManager() {
     });
   }
 
+//Run writeToFile function to generate the team roster
   function writeToFile(filename, data) {
     fs.writeFile(filename, data, (err) => {
         if (err) throw err;
