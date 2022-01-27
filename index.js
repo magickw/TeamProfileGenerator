@@ -6,6 +6,7 @@ const Intern = require("./lib/Intern");
 const inquirer = require("inquirer");
 //Import the file system module
 const fs = require("fs");
+//Import the jest module to run the test
 const jest = require("jest");
 const path = require("path");
 
