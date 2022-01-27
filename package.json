@@ -10,7 +10,7 @@
     "url": "git+https://github.com/magickw/teamprofilegenerator.git"
   },
   "keywords": ["team", "profile", "generator", "jest"],
-  "author": "Baofeng Guo",
+  "author": "Baofeng Guo <peterguo1983@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/magickw/teamprofilegenerator/issues"
