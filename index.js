@@ -8,7 +8,6 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 //Import the jest module to run the test
 const jest = require("jest");
-const path = require("path");
 
 const generateHTML = require("./src/generateHTML");
 
