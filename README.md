@@ -29,7 +29,7 @@ This is a command-line application that runs with Node.js to create a simple web
 The application uses the `inquirer` package to prompt you in the command line with a series of questions about your team members. It takes your answers. Once all prompts are answered, `fs.writeFile` method will be used to generate a team roster page in the `./dist` folder.
 
 ## Demo
-Please click <a href="https://watch.screencastify.com/v/jgiuyhTxTolE8xgtpxgU">here</a> for video in higher definitions.
+Please click <a href="https://watch.screencastify.com/v/jgiuyhTxTolE8xgtpxgU">here</a> or visit my <a href="https://youtu.be/iuG_1h33D4o">Youtube channel</a> for video in higher definitions.
 <img src="demo/demo.gif" alt="demo" />
 
 Screenshot of output html:
