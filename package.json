@@ -10,8 +10,8 @@
     "url": "git+https://github.com/magickw/teamprofilegenerator.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Baofeng Guo",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/magickw/teamprofilegenerator/issues"
   },
