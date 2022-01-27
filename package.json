@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magickw/teamprofilegenerator.git"
+    "url": "https://github.com/magickw/teamprofilegenerator.git"
   },
   "keywords": ["team", "profile", "generator", "jest"],
   "author": "Baofeng Guo <peterguo1983@gmail.com>",
