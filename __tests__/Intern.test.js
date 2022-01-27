@@ -13,7 +13,7 @@ test('getRole() should return "Intern"', () => {
 });
 
 test('Can get school via getSchool()', () => {
-  const testValue = "UCLA";
+  const testValue = "Stanford";
   const intern = new Intern("Panda", 123, "kungfu@panda.com", testValue);
   expect(intern.getSchool()).toBe(testValue);
 });
