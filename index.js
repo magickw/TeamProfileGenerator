@@ -265,7 +265,7 @@ function createManager() {
         name: "internSchool",
         message: "What is the intern's school?",
         validate: answer => {
-            //Check it the input is empy
+            //Check it the input is empty
           if (answer !== "") {
             return true;
           }
