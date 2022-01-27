@@ -75,7 +75,6 @@ function createManager() {
             //Check if the id is valid
             //match() method retrieves the result of matching a string against a regular expression
             const valid = answer.match(
-            match(
             //regular expression for checking if the input is a valid number
             /^0|[1-9]\d*$/
             );
@@ -89,6 +88,8 @@ function createManager() {
       const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.managerOfficeNumber);
       //Push the manger to team members array
       teamMembers.push(manager);
+      console.log(manager);
+      console.log('Manager character is created successfully.');
       //Push the manager's ID to id array
       idArray.push(answers.managerId);
       //Once the manager role is created, then run the createTeam function
@@ -149,7 +150,6 @@ function createManager() {
         validate: answer => {
              //Check if the ID is valid
           const valid = answer.match(
-            match(
             //regular expression for checking if the input is a valid number
             /^0|[1-9]\d*$/
           );
@@ -198,6 +198,8 @@ function createManager() {
       const engineer = new Engineer(answers.engineerName, answers.engineerId, answers.engineerEmail, answers.engineerGithub);
       //Push the manger to team members array
       teamMembers.push(engineer);
+      console.log(engineer);
+      console.log('Engineer character is created successfully.');
       //Push the engineer's ID to id array
       idArray.push(answers.engineerId);
       //Once the engineer role is created, then run the createTeam function
@@ -228,7 +230,6 @@ function createManager() {
             //Check if the id is valid
             //match() method retrieves the result of matching a string against a regular expression
           const valid = answer.match(
-           match(
             //regular expression for checking if the input is a valid number
             /^0|[1-9]\d*$/
           );
@@ -276,6 +277,8 @@ function createManager() {
       const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.internSchool);
       //Push the intern to team members array
       teamMembers.push(intern);
+      console.log(intern);
+      console.log('Intern character is created successfully.');
       //Push the intern's ID to id array
       idArray.push(answers.internId);
       //Once the intern role is created, then run the createTeam function
