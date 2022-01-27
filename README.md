@@ -12,6 +12,7 @@ This is a command-line application that runs with Node.js to create a simple web
 - [Installation](#installation)
 - [Usage](#usage)
 - [Demo](#demo)
+- [Built With](#built-with)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -34,6 +35,14 @@ Please click <a href="https://watch.screencastify.com/v/J1HNrZO2Qyq22VGeQvhO">he
 Screenshot of output html:
 <img src="src/screenshot.png" alt="screenshot" />
 
+**[⬆ back to top](#table-of-contents)**
+
+## Built With
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/Javascript)
+  
 **[⬆ back to top](#table-of-contents)**
 
 ## License
