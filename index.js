@@ -6,10 +6,11 @@ const Intern = require("./lib/Intern");
 const inquirer = require("inquirer");
 //Import the file system module
 const fs = require("fs");
+const jest = require("jest");
 
-//Create a team member array
+//Create a team members array
 const teamMembers = [];
-//Create an ID array
+//Create an ID array which will be used to avoid duplicate IDs
 const idArray = [];
 
 
@@ -138,14 +139,14 @@ function createManager() {
         name: "engineerId",
         message: "What is the engineer's ID?",
         validate: answer => {
-             //Check if the id is valid
+             //Check if the ID is valid
           const valid = answer.match(
             /^0|[1-9]\d*$/
           );
           if (valid) {
-              //Check if the id has been taken
+              //Check if the ID has been taken
             if (idArray.includes(answer)) {
-                //Prompt the user to choose new id if the id has been taken
+                //Prompt the user to choose new id if the ID array already has the same ID
               return "This ID is already taken. Please enter a different ID.";
             } else {
               return true;
