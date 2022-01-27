@@ -35,6 +35,9 @@ Please click <a href="https://watch.screencastify.com/v/jgiuyhTxTolE8xgtpxgU">he
 Screenshot of output html:
 <img src="demo/screenshot.png" alt="screenshot" />
 
+Screenshot of test results:
+<img src="demo/test.png" alt="screenshot" />
+
 **[⬆ back to top](#table-of-contents)**
 
 ## Built With
