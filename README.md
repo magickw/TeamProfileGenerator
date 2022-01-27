@@ -18,13 +18,19 @@ This is a command-line application that runs with Node.js.
 - [Questions](#questions)
 
 ## Installation
+`git clone` the repo to your local machine. To use this application, please run the following commands:
 
+`npm install inquirer`
+`npm install jest`
 
 ## Usage
-
+The application uses the `inquirer` package to prompt you in the command line with a series of questions about your team member. It takes your answers. Once all prompts are answered, `fs.writeFile` method will be used to generate a html webpage with information of your team members.
 
 ## Demo
+Please click <a href="https://watch.screencastify.com/v/J1HNrZO2Qyq22VGeQvhO">here</a> for video in higher definitions.
 <img src="src/demo.gif" alt="demo" />
+
+Screenshot of output html:
 <img src="src/screenshot.png" alt="screenshot" />
 
 **[⬆ back to top](#table-of-contents)**
@@ -40,7 +46,11 @@ This application is developed by Baofeng Guo. If you would like to contribute it
 **[⬆ back to top](#table-of-contents)**
 
 ## Tests
-No testing required beyond the test-run of the application. The repo comes with every module you need.
+To run tests on the application, install
+
+`npm install jest`
+
+and run `npm run test` from the command line.
 
 **[⬆ back to top](#table-of-contents)**
 
