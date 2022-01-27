@@ -7,6 +7,9 @@ const inquirer = require("inquirer");
 //Import the file system module
 const fs = require("fs");
 const jest = require("jest");
+const path = require("path");
+
+const generateHTML = require("./src/generateHTML");
 
 //Create a team members array
 const teamMembers = [];
@@ -113,7 +116,7 @@ function createManager() {
           addIntern();
           break;
         default:
-          buildTeam();
+            writeToFile("./dist/team.html", generateHTML(teamMembers));
       }
     });
   }
@@ -271,12 +274,11 @@ function createManager() {
     });
   }
 
-  function buildTeam() {
-    fs.writeFile("./dist/team.html", html, function (err) {
+  function writeToFile(filename, data) {
+    fs.writeFile(filename, data, (err) => {
         if (err) throw err;
         console.log('Team.html is created successfully.');
     });
+}
 
   createManager();
-
-}
