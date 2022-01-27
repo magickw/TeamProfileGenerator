@@ -36,7 +36,7 @@ function createManager() {
         validate: answer => {
             //Check if the id is valid
             const valid = answer.match(
-              /^[1-9]\d*$/
+            /^0|[1-9]\d*$/
             );
             if (valid) {
               return true;
@@ -63,6 +63,16 @@ function createManager() {
         type: "input",
         name: "managerOfficeNumber",
         message: "What is the manager's office number?",
+        validate: answer => {
+            //Check if the id is valid
+            const valid = answer.match(
+            /^0|[1-9]\d*$/
+            );
+            if (valid) {
+              return true;
+            }
+            return "Please enter a positive number.";
+          }
       }
     ]).then(answers => {
       const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.managerOfficeNumber);
@@ -127,7 +137,7 @@ function createManager() {
         validate: answer => {
              //Check if the id is valid
           const valid = answer.match(
-            /^[1-9]\d*$/
+            /^0|[1-9]\d*$/
           );
           if (valid) {
               //Check if the id has been taken
@@ -202,7 +212,7 @@ function createManager() {
         validate: answer => {
             //Check if the id is valid
           const valid = answer.match(
-            /^[1-9]\d*$/
+            /^0|[1-9]\d*$/
           );
           if (valid) {
                //Check if the id has been taken
@@ -254,4 +264,12 @@ function createManager() {
     });
   }
 
- 
+  function buildTeam() {
+    fs.writeFile("./dist/team.html", html, function (err) {
+        if (err) throw err;
+        console.log('Team.html is created successfully.');
+    });
+
+  createManager();
+
+}
