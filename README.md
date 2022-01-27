@@ -26,7 +26,7 @@ This is a command-line application that runs with Node.js to create a simple web
 `npm install jest`
 
 ## Usage
-The application uses the `inquirer` package to prompt you in the command line with a series of questions about your team member. It takes your answers. Once all prompts are answered, `fs.writeFile` method will be used to generate a team roster page in the `./dist` folder.
+The application uses the `inquirer` package to prompt you in the command line with a series of questions about your team members. It takes your answers. Once all prompts are answered, `fs.writeFile` method will be used to generate a team roster page in the `./dist` folder.
 
 ## Demo
 Please click <a href="https://watch.screencastify.com/v/jgiuyhTxTolE8xgtpxgU">here</a> for video in higher definitions.
