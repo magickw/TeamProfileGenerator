@@ -29,7 +29,7 @@ test('Can get name via getName()', () => {
 	expect(employee.getName()).toBe(testValue);
 });
 
-test('Can get id via getId()', () => {
+test('Can get ID via getId()', () => {
 	const testValue = 123;
 	const employee = new Employee('Panda', testValue);
 	expect(employee.getId()).toBe(testValue);
