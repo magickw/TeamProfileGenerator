@@ -4,7 +4,7 @@
 ![badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-This is a command-line application that runs with Node.js.
+This is a command-line application that runs with Node.js to create a simple webpage featuring your development team's roster.
 
 ## Table of Contents
 - [Description](#description)
@@ -21,10 +21,11 @@ This is a command-line application that runs with Node.js.
 `git clone` the repo to your local machine. To use this application, please run the following commands:
 
 `npm install inquirer`
+
 `npm install jest`
 
 ## Usage
-The application uses the `inquirer` package to prompt you in the command line with a series of questions about your team member. It takes your answers. Once all prompts are answered, `fs.writeFile` method will be used to generate a html webpage with information of your team members.
+The application uses the `inquirer` package to prompt you in the command line with a series of questions about your team member. It takes your answers. Once all prompts are answered, `fs.writeFile` method will be used to generate a team roster page in the `./dist` folder.
 
 ## Demo
 Please click <a href="https://watch.screencastify.com/v/J1HNrZO2Qyq22VGeQvhO">here</a> for video in higher definitions.
@@ -46,11 +47,11 @@ This application is developed by Baofeng Guo. If you would like to contribute it
 **[⬆ back to top](#table-of-contents)**
 
 ## Tests
-To run tests on the application, install
+To run tests on the application, run
 
 `npm install jest`
 
-and run `npm run test` from the command line.
+and then `npm run test` from the command line.
 
 **[⬆ back to top](#table-of-contents)**
 
