@@ -30,10 +30,10 @@ The application uses the `inquirer` package to prompt you in the command line wi
 
 ## Demo
 Please click <a href="https://watch.screencastify.com/v/NntLRKzbvSuxxMcRvQPO">here</a> for video in higher definitions.
-<img src="src/demo.gif" alt="demo" />
+<img src="demo/demo.gif" alt="demo" />
 
 Screenshot of output html:
-<img src="src/screenshot.png" alt="screenshot" />
+<img src="demo/screenshot.png" alt="screenshot" />
 
 **[⬆ back to top](#table-of-contents)**
 
