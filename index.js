@@ -35,6 +35,7 @@ function createManager() {
         message: "What is the manager's ID?",
         validate: answer => {
             //Check if the id is valid
+            //match() method retrieves the result of matching a string against a regular expression
             const valid = answer.match(
             /^0|[1-9]\d*$/
             );
@@ -49,6 +50,7 @@ function createManager() {
         name: "managerEmail",
         message: "What is the manager's email address?",
         validate: answer => {
+            //match() method retrieves the result of matching a string against a regular expression
             const valid = answer.match(
                 //Check if the email input contains important elements such as @, dot(.)
               /\S+@\S+\.\S+/
@@ -65,6 +67,7 @@ function createManager() {
         message: "What is the manager's office number?",
         validate: answer => {
             //Check if the id is valid
+            //match() method retrieves the result of matching a string against a regular expression
             const valid = answer.match(
             /^0|[1-9]\d*$/
             );
@@ -158,6 +161,7 @@ function createManager() {
         name: "engineerEmail",
         message: "What is the engineer's email address?",
         validate: answer => {
+            //match() method retrieves the result of matching a string against a regular expression
             const valid = answer.match(
                 //Check if the email input contains important elements such as @, dot(.)
               /\S+@\S+\.\S+/
@@ -211,6 +215,7 @@ function createManager() {
         message: "What is the intern's ID?",
         validate: answer => {
             //Check if the id is valid
+            //match() method retrieves the result of matching a string against a regular expression
           const valid = answer.match(
             /^0|[1-9]\d*$/
           );
@@ -231,6 +236,7 @@ function createManager() {
         name: "internEmail",
         message: "What is the intern's email address?",
         validate: answer => {
+            //match() method retrieves the result of matching a string against a regular expression
           const valid = answer.match(
               //Check if the email input contains important elements such as @, dot(.)
             /\S+@\S+\.\S+/
