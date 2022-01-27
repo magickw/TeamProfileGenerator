@@ -41,6 +41,7 @@ function createManager() {
             //Check if the id is valid
             //match() method retrieves the result of matching a string against a regular expression
             const valid = answer.match(
+            //regular expression for checking if the input is a valid number
             /^0|[1-9]\d*$/
             );
             if (valid) {
@@ -73,6 +74,8 @@ function createManager() {
             //Check if the id is valid
             //match() method retrieves the result of matching a string against a regular expression
             const valid = answer.match(
+            match(
+            //regular expression for checking if the input is a valid number
             /^0|[1-9]\d*$/
             );
             if (valid) {
@@ -116,6 +119,7 @@ function createManager() {
           addIntern();
           break;
         default:
+            //write to team.html by default 
             writeToFile("./dist/team.html", generateHTML(teamMembers));
       }
     });
@@ -144,6 +148,8 @@ function createManager() {
         validate: answer => {
              //Check if the ID is valid
           const valid = answer.match(
+            match(
+            //regular expression for checking if the input is a valid number
             /^0|[1-9]\d*$/
           );
           if (valid) {
@@ -221,6 +227,8 @@ function createManager() {
             //Check if the id is valid
             //match() method retrieves the result of matching a string against a regular expression
           const valid = answer.match(
+           match(
+            //regular expression for checking if the input is a valid number
             /^0|[1-9]\d*$/
           );
           if (valid) {
