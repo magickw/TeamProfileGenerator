@@ -101,7 +101,7 @@ function createManager() {
       {
         type: "list",
         name: "memberChoice",
-        //Prompt to add the type of team member
+        //Prompt to choose a type of team member to add
         message: "Which type of team member would you like to add?",
         choices: [
           "Engineer",
