@@ -5,7 +5,7 @@ test('Can create Employee object', () => {
 	expect(typeof employee).toBe('object');
 });
 
-test('Can set name via constructor arguments', () => {
+test('Can set name via constructor argument', () => {
 	const name = 'Panda';
 	const employee = new Employee(name);
 	expect(employee.name).toBe(name);
