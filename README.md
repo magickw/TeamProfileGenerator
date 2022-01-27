@@ -24,7 +24,7 @@ This is a command-line application that runs with Node.js.
 
 
 ## Demo
-
+<img src="src/demo.gif" alt="demo" />
 <img src="src/screenshot.png" alt="screenshot" />
 
 **[⬆ back to top](#table-of-contents)**
