@@ -236,7 +236,7 @@ function createManager() {
         message: "What is the intern's ID?",
         default: 456,
         validate: answer => {
-            //Check if the id is valid
+            //Check if the ID is valid
             //match() method retrieves the result of matching a string against a regular expression
           const valid = answer.match(
             //regular expression for checking if the input is a valid number
@@ -277,7 +277,7 @@ function createManager() {
         message: "What is the intern's school?",
         default: "Stanford",
         validate: answer => {
-            //Check it the input is empty
+            //Check if the input is empty
           if (answer !== "") {
             return true;
           }
