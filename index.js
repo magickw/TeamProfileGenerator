@@ -38,7 +38,7 @@ function createManager() {
         type: "input",
         name: "managerId",
         message: "What is the manager's ID?",
-        default: 123,
+        default: "123",
         validate: answer => {
             //Check if the id is valid
             //match() method retrieves the result of matching a string against a regular expression
@@ -73,7 +73,7 @@ function createManager() {
         type: "input",
         name: "managerOfficeNumber",
         message: "What is the manager's office number?",
-        default: 100,
+        default: "100",
         validate: answer => {
             //Check if the id is valid
             //match() method retrieves the result of matching a string against a regular expression
@@ -151,7 +151,7 @@ function createManager() {
         type: "input",
         name: "engineerId",
         message: "What is the engineer's ID?",
-        default: 234,
+        default: "234",
         validate: answer => {
              //Check if the ID is valid
           const valid = answer.match(
@@ -234,7 +234,7 @@ function createManager() {
         type: "input",
         name: "internId",
         message: "What is the intern's ID?",
-        default: 456,
+        default: "456",
         validate: answer => {
             //Check if the ID is valid
             //match() method retrieves the result of matching a string against a regular expression
@@ -258,7 +258,7 @@ function createManager() {
         type: "input",
         name: "internEmail",
         message: "What is the intern's email address?",
-        default: "Sarah",
+        default: "sarah@panda.com",
         validate: answer => {
             //match() method retrieves the result of matching a string against a regular expression
           const valid = answer.match(
